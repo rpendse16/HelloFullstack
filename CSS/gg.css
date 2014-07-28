@@ -1,3 +1,13 @@
 body {
   background-color: #DAA520 !important;
 }
+
+#answer{
+	text-align: center;
+	display: none;
+}
+
+#ranjeetWins{
+	text-align: center;
+	display: none;
+}

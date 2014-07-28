@@ -14,14 +14,17 @@
 <center>Welcome to Ranjeet Pendse's guessing game!</center></header>
   <h1><div class="jumbotron","container"><center>Pick a number from 1-100</center>
  </text></span></h3>
- <center><input type="text" name="guess"><br><br><br><br></center>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+ <center><input id="guess" type="text" name="guess"><br><br><br><br></center>
+ <div id="answer" class="alert alert-success" ></div>
+ <div id="ranjeetWins"><img src="yougotitright.jpg"></div</div>
+    <script src="jquery-2.1.1.min.js"></script>
+    <script src="application.js"></script>
     </div>
     <div class="btn-group btn-group-justified">
     <div class="btn-group">
   <button type="button" class="btn btn-warning">Play Again</button></div>
   <div class="btn-group">
-  <button type="button" class="btn btn-primary">Submit Your Guess!</button></div>
+  <button type="submit" class="btn btn-primary">Submit Your Guess!</button></div>
   <div class="btn-group">
   <button type="button" class="btn btn-danger">Give up!</button></div>
 </div>
